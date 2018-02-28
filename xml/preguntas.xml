@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+<!DOCTYPE questions SYSTEM "preguntas_esquema.dtd">
+-->
+<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="preguntas.xsd">
+	<question id="mlag_001">
+		<type>select</type>
+		<title>¿Cual es la cumbre más elevada de Mallorca?</title>
+		<option>Puig de Tomir</option>
+		<option>Puig de Massanella</option>
+		<option>Puig Major</option>
+		<option>Puig de ses Bassetes</option>
+		<answer>2</answer>
+		<!-- SIN IMPLEMENTAR: DE CARA AL FUTURO
+		<explanation>El nombre proviene del latin "Insularia Canaria", que significa tierra de los perros.</explanation> -->
+	</question>
+	<question id="mlag_002">
+		<type>select</type>
+		<title>Las Bodegas José L. Ferrer, están situadas en...</title>
+		<option>Binissalem</option>
+		<option>Consell</option>
+		<option>Andratx</option>
+		<answer>0</answer>
+		<!-- SIN IMPLEMENTAR: DE CARA AL FUTURO
+		<explanation>A pesar del nombre, viene del hecho de que alcanzaron relevancia durante la construcción del Canal de Panamá cuando millares de sombreros fueron importados desde Ecuador para el uso de los trabajadores de la construcción</explanation> -->
+	</question>
+	<question id="mlag_003">
+		<type>text</type>
+		<title>¿Distancia en Km. de Palma a Lluc a Peu?</title>
+		<answer>48</answer>
+	</question>
+	<question id="mlag_004">
+		<type>text</type>
+		<title>¿Cuantas islas componen el archipiélago balear?</title>
+		<answer>5</answer>
+	</question>
+	<question id="mlag_005">
+		<type>checkbox</type>
+		<title>Marca los 2 pueblos con puerto</title>
+		<option>Soller</option>
+		<option>Caimari</option>
+		<option>Andratx</option>
+		<option>Inca</option>
+		<option>Algaida</option>
+		<answer>0</answer>
+		<answer>2</answer>
+	</question>
+	<question id="mlag_006">
+		<type>checkbox</type>
+		<title>Indica que 3  barriadas pertenecen a Palma</title>
+		<option>Son Cotoner</option>
+		<option>Els Hostalets</option>
+		<option>Santa Catalina</option>
+		<option>Es Figueral</option>
+		<answer>0</answer>
+		<answer>1</answer>     
+		<answer>2</answer>
+	</question>
+	<question id="mlag_007">
+		<type>radio</type>
+		<title>¿Con la carne de que animal se elabora la sobrasada?</title>
+		<option>Pollo</option>
+		<option>Cerdo</option>
+		<option>Cordero</option>
+		<option>Caballo</option>
+		<answer>1</answer>
+	</question>
+	<question id="mlag_008">
+		<type>radio</type>
+		<title>¿Que se come tradicionalmente en Sant Marc?</title>
+		<option>Lechona</option>
+		<option>Frito de marisco</option>
+		<option>Fideos</option>
+		<option>Caracoles</option>
+		<answer>3</answer>
+	</question>
+	<question id="mlag_009">
+		<type>select multiple</type>
+		<title>Marca 2 opciones: ¿Que encontramos en el Puig de Randa?</title>
+		<option>Telescopio</option>
+		<option>Radar</option>
+		<option>Antenas</option>
+		<option>Carcel</option>
+		<answer>2</answer>
+		<answer>1</answer>
+	</question>
+	<question id="mlag_010">
+		<type>select multiple</type>
+		<title>¿Qué 2 pueblos tienen estación de tren?</title>
+		<option>Porreras</option>
+		<option>Selva</option>
+		<option>Manacor</option>
+		<option>Santa María</option>
+		<answer>2</answer>
+		<answer>3</answer>
+	</question>	
+</questions>

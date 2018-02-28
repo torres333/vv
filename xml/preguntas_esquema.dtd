@@ -1,0 +1,7 @@
+<!ELEMENT questions ( question+ ) >
+<!ELEMENT question ( type, title, option*, answer+ ) >
+<!ATTLIST question id CDATA #REQUIRED >
+<!ELEMENT type (#PCDATA|text|select|multiple|checkbox|radio)* >
+<!ELEMENT title ( #PCDATA ) >
+<!ELEMENT option ( #PCDATA ) >
+<!ELEMENT answer ( #PCDATA ) >
