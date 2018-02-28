@@ -1,0 +1,236 @@
+/******************************************************************************/
+/* ESTRUCTURA GENERAL DOCUMENTO */
+/******************************************************************************/
+body,html {
+	margin:0px;
+}
+
+body {
+	width:70%;
+	padding-left:15%;
+	padding-right:15%;
+	background-image: url("../img/fondo.jpg");
+	font-family: 'Open Sans';
+	/*'Alegreya Sans';*/
+}
+
+body,input,select,label {
+	font-size:1.5vw;
+	font-family: 'Open Sans';
+	/*'Alegreya Sans';*/
+}
+
+h3{
+	font-size:2vw;
+}
+
+/******************************************************************************/
+/*CABECERA*/
+/******************************************************************************/
+#headBanner {
+	background-image: url("../img/headBanner.jpg");
+	background-size: 100% 145%;
+}
+
+#headBanner img {
+	width: 20%;
+	left: 0px;
+	vertical-align: middle;
+	margin: 10px;
+}
+#headBanner p {
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+/******************************************************************************/
+/* MENU */
+/******************************************************************************/
+#headMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #42a5f5; 
+	/*#50b780*/
+}
+/*#CD5360;*/
+
+#headMenu img {
+	vertical-align: middle;
+	width: 30px;
+}
+
+#headMenu li {
+    float: left;
+}
+
+#headMenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+#headMenu li a:hover {
+    background-color: #ab2e3b;
+}
+
+.active {
+	background-color: #bbdefb;
+	/*#ab2e3b;*/
+}
+
+/******************************************************************************/
+/*FORMULARIO*/
+/******************************************************************************/
+input,select{
+	width:50%;
+}
+
+input[type=radio]{
+	width: 5%;zoom:1.5;
+}
+
+input[type=checkbox]{
+	width:5%;zoom:1.5;
+}
+
+form{
+	background-color: #efebe9;
+	/*#b79950;*/
+	/*/#90CAF9;*/
+	padding:3%;
+}
+
+form h3 {
+	font-family: 'Open Sans';
+	/*"Alegreya SC";*/
+}
+
+#myform {
+	text-align: center;
+}
+
+#myform div {
+	text-align: left;
+}
+
+/******************************************************************************/
+/* CORRECCIONES Y RESULTADOS */
+/******************************************************************************/
+#botonCorregir {
+	background-color: #42a5f5;  
+	/*#0288d1;*/
+	/*#90CAF9;*/
+    border: 2px solid #000000;
+	/*#ab2e3b;*/
+    color:  #000000;
+	/*#ab2e3b;*/
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#botonCorregir:hover{
+	background-color: #e5b0a9
+	/*#CD5360;*/
+    color: white;
+}
+
+#resultadosDiv {
+	background-color: #cdd6e7
+	/*#90CAF9;*/
+	padding:3%;
+
+}
+
+#resultadosDiv img {
+	width: 25px;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.correcto {
+	color: #27b63a;
+}
+
+.incorrecto {
+	color: #cddaf3
+	/*#e64439;*/
+}
+
+#nota {
+	font-size: 3vw;
+	margin:auto;
+	margin-top: 4%;
+	display:table;
+	padding: 16px 10px;
+    border: 2px solid #ab2e3b;
+    color: #cddaf3
+	/*#e64439;*/
+}
+
+/******************************************************************************/
+/* CONTENIDO CUERPO */
+/******************************************************************************/
+.contenido {
+	background-color: #efebe9;
+	/*#93934b*/
+	/*#90CAF9;*/
+	padding:3%;
+}
+.contenido h3 {
+	color: #f3f3cd
+	/*#926640;*/
+	text-align: center;
+	font-family: 'Open Sans';
+	/*"Alegreya SC";*/
+}
+.contenido li {
+	padding: 10px 20px;
+}
+
+.contenido img{
+	width: 50%;
+	position: relative;
+	left: 25%;
+}
+
+#equipoDocente {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+}
+#equipoDocente li {
+    float: left;
+    width: 33%;
+    padding: 0px;
+    color: ##286DA8;
+	/*#ab2e3b;*/
+}
+
+#equipoDocente img {
+	position: relative;
+	left: 0%;
+	width: 80%;
+}
+
+.separador {
+	width: 106.2%;
+	height: 3px;
+	background-color: #42a5f5;
+	/*#286DA8;*/
+	margin-left: -3.1%;	
+}

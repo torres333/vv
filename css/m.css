@@ -1,0 +1,210 @@
+/******************************************************************************/
+/* ESTRUCTURA GENERAL DOCUMENTO */
+/******************************************************************************/
+body,html {
+	margin:0px
+}
+
+body{
+	width:96%;
+	padding-left:2%;
+	padding-right:2%;
+    background-image: url("../img/fondo.jpg");
+    font-family: 'Open Sans';
+}
+
+body,input,select,label {
+	font-size:5vw;
+    font-family: 'Open Sans';
+}
+
+h3{
+	font-size:7vw
+}
+
+/******************************************************************************/
+/*CABECERA*/
+/******************************************************************************/
+#headBanner {
+    background-image: url("../img/headBanner.jpg");
+    background-size: 100% 145%;
+    text-align: center;
+}
+
+#headBanner img {
+    width: 50%;
+    vertical-align: middle;
+    margin: 10px;
+}
+#headBanner p{
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/******************************************************************************/
+/*MENU*/
+/******************************************************************************/
+#headMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #CD5360;
+}
+
+#headMenu img {
+    vertical-align: middle;
+    width: 30px;
+}
+
+#headMenu li a {
+    display: block;
+    color: white;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+#headMenu li a:hover {
+    background-color: #ab2e3b;
+}
+
+.active {
+    background-color: #ab2e3b;
+}
+
+/******************************************************************************/
+/*FORMULARIO*/
+/******************************************************************************/
+input,select{
+	width:80%
+}
+
+input[type=checkbox]{
+	width:5%;zoom:1.5
+}
+
+input[type=radio]{
+	width: 5%;zoom:1.5;
+}
+
+form{
+	background-color:#90CAF9;
+    padding:1%;
+}
+form h3 {
+    font-family: 'Open Sans';
+}
+
+#myform {
+    text-align: center;
+}
+
+#myform div {
+    text-align: left;
+}
+
+/******************************************************************************/
+/* CORRECCIONES Y RESULTADOS */
+/******************************************************************************/
+#botonCorregir {
+    background-color: #90CAF9; /* Green */
+    border: 2px solid #ab2e3b;
+    color: #ab2e3b;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#botonCorregir:hover{
+    background-color: #CD5360;
+    color: white;
+}
+
+#resultadosDiv {
+    background-color:#90CAF9;
+    padding:3%;
+
+}
+
+#resultadosDiv img {
+    width: 25px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.correcto {
+    color: #27b63a;
+}
+
+.incorrecto {
+    color: #e64439;
+}
+
+#nota {
+    font-size: 7vw;
+    margin:auto;
+    margin-top: 4%;
+    display:table;
+    padding: 16px 10px;
+    background-color: #90CAF9; 
+    border: 2px solid #ab2e3b;
+    color: #ab2e3b;
+}
+
+/******************************************************************************/
+/* CONTENIDO CUERPO */
+/******************************************************************************/
+.contenido {
+    background-color:#90CAF9;
+    padding:3%;
+}
+.contenido h3 {
+    color: #926640;
+    text-align: center;
+    font-family: 'Open Sans';
+}
+.contenido li {
+    padding: 3% 3%;
+}
+
+.contenido img{
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+#equipoDocente {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+}
+#equipoDocente li {
+    float: left;
+    width: 33%;
+    padding: 0px;
+    color: #ab2e3b;
+}
+
+#equipoDocente img {
+    position: relative;
+    left: 0%;
+    width: 80%;
+}
+
+.separador {
+    width: 106.2%;
+    height: 3px;
+    background-color: #286DA8;
+    margin-left: -3.1%; 
+}
